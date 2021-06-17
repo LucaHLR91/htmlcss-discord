@@ -33,27 +33,32 @@ body {
     color: white;
 }
 
+.purple {
+    background-color: purple;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
 h2 {
     font-size: 50px;
-    text-align: center
+    padding: 30px;
 }
 
 p {
-    font-size: ;
     font-weight: bold;
-    text-align: center;
+    padding: 30px;
 }
 
 section {
-    background-color: red;
+    width: 100%;
+    margin-bottom: 100px;
 }
 
 
 .box-img {
     float: left;
     width: 50%;
-    
-
 }
 
 .box-text {
@@ -145,7 +150,20 @@ li:last-child {
     margin: 0 auto;
 }
 
+.reverse-float-img {
+    float: right;
+    width: 50%;
+}
 
+.reverse-float-text {
+    float: right;
+    width: 50%;
+    padding-top: 50px;
+}
+
+.main-footer {
+    text-align: center;
+}
 
 /* /main */
 

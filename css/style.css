@@ -20,7 +20,17 @@ body {
 .btn {
     border-radius: 30px;
     text-align: center;
-    padding: 0 20px;
+    padding: 10px 20px;
+}
+
+.white {
+    background-color: white;
+    color: black;
+}
+
+.black {
+    background-color: black;
+    color: white;
 }
 
 
@@ -31,7 +41,9 @@ body {
 
 header {
     width: 100%;
-    background-color: rgb(49, 97, 224);
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    height: 500px;
 }
 
 nav {
@@ -70,8 +82,33 @@ li:last-child {
 .header-bottom {
     width: 60%;
     margin: 0 auto;
-    
+    text-align: center;
+    color: white;
 }
+
+.header-bottom h1 {
+    font-size: 50px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.header-bottom p {
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.header-bottom .download {
+    margin-top: 50px;
+}
+
+.download a {
+    text-decoration: none;
+    text-align: center;
+}
+
+``````````````````````````````````````````````````````
+
+
 
 /* /header */
 

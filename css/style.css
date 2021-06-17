@@ -171,15 +171,38 @@ li:last-child {
 
 footer {
     background-color: rgb(35, 39, 42);
+    color: white;
 }
 
 footer section {
     margin: 0;
 }
 
-footer h2 {
-    font-size: 20px;
+.footer-top {
+    border-bottom: 1px solid rgb(142, 161, 225);
+    margin-bottom: 10px;
 }
+
+.footer-top img {
+    height: 10px;
+    margin-left: 10px;
+}
+
+footer h2 {
+    font-size: 40px;
+    color: rgb(142, 161, 225);
+    padding: 10px 0;
+}
+
+.footer-top p {
+    display: inline-block;
+    padding: 10px;
+}
+
+i {
+    padding: 10px;
+}
+
 
 .footer-bottom {
     position: relative;

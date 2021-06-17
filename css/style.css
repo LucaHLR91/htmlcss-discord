@@ -33,6 +33,35 @@ body {
     color: white;
 }
 
+h2 {
+    font-size: 50px;
+    text-align: center
+}
+
+p {
+    font-size: ;
+    font-weight: bold;
+    text-align: center;
+}
+
+section {
+    background-color: red;
+}
+
+
+.box-img {
+    float: left;
+    width: 50%;
+    
+
+}
+
+.box-text {
+    float: left;
+    width: 50%;
+    padding-top: 50px;
+}
+
 
 
 /* /common */
@@ -41,6 +70,7 @@ body {
 
 header {
     width: 100%;
+    margin-bottom: 100px;
     background-image: url(../img/jumbo.png);
     background-size: cover;
     height: 500px;
@@ -94,7 +124,6 @@ li:last-child {
 
 .header-bottom p {
     margin-top: 50px;
-    font-weight: bold;
 }
 
 .header-bottom .download {
@@ -107,12 +136,16 @@ li:last-child {
 }
 
 
-
-
-
 /* /header */
 
 /* main */
+
+.wrap {
+    width: 70%;
+    margin: 0 auto;
+}
+
+
 
 /* /main */
 

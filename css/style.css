@@ -34,7 +34,7 @@ body {
 }
 
 .purple {
-    background-color: purple;
+    background-color: rgb(142, 161, 225);
     color: white;
     text-align: center;
     text-decoration: none;
@@ -169,6 +169,35 @@ li:last-child {
 
 /* footer */
 
+footer {
+    background-color: rgb(35, 39, 42);
+}
+
+footer section {
+    margin: 0;
+}
+
+footer h2 {
+    font-size: 20px;
+}
+
+.footer-bottom {
+    position: relative;
+    height: 40px;
+    
+}
+
+.footer-bottom img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.footer-bottom a {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
 /* /footer */
 
 
